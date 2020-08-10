@@ -1,28 +1,112 @@
-
-
 <!DOCTYPE html>
 <html>
  <head>
-    <link rel="stylesheet" href="./css/resumestyle.css">
-    <link rel="stylesheet" href="./css/style.css">
-<title></title>
+    <style>
+
+div
+{
+    border-radius: 5px;
+}
+    mark { 
+  background-color:#FB743A ;
+  color: black;
+}
+#header
+{
+    position: relative;
+    height:90px;
+    width: 100%;
+    background-color: #668284;
+    margin-bottom: 10px;
+    margin-top: -7px;
+
+    }
+    img
+    {
+        margin-right: 1px;
+        border-radius: 70%;
+        width:85px;
+        height:90px;
+        text-align:right;
+        float:right;
+    }
+
+#name {
+    float:left;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.main
+{
+    float: left;
+    margin-top: -8px;
+    padding-left:5px;
+    height: auto;
+    width: 100%;
+    background-color: #E3EDD8;
+    }
+    
+h3
+{
+    text-decoration: underline;
+    }
+
+
+table
+{
+    border: 1px dashed black;
+    }
+td
+{
+    padding: 2px;
+    border: 1px solid #E88741;
+    }
+
+#course-name
+{
+    font-weight:bold;
+    }
+
+#project
+{
+    height:2px;
+    text-decoration:underline;
+    }
+
+#heading
+{
+    font-weight:bold;
+    }
+    </style>
+<title>Resume</title>
 </head>
 <body>
-<div id="header" class="container-fluid">
-<p id="name" class="text-uppercase">Kartik Singh<br> +91 7456013214</p>
-        <a href="mailto:imkartiksingh@gmail.com" target="_blank"><p id="email">Email:-imkartiksingh@gmail.com</p></a>
-    </div>
-<div class="left">
+<div id="header">
+<p id="name" class="text-uppercase">
+    <a href="https://www.linkedin.com/in/kartik-singh-0497331b2/" color="white">Kartik Singh</a><br>
+    +91 7456013214<br>
+    Email:-imkartiksingh@gmail.com</p>
+        
+<img src="resume/kartik.jpg">
 </div>
-    <div class="right">
-            <h3>VISION</h3>
+
+    <div class="main">
+            <h3><mark><em>VISION</em></mark></h3>
             <p>
             <ul>
                 <li>2021: To be a part of a best Tech Company and learn to be more SMART (i.e. Specific,Measurable, Achievable, Realistic & Timely)</li>
                 <li>2025: Proliferate the statistical growth of the company and the betterment of the society.</li>
             </ul>
             </p>
-            <h3>Educational Qualifications</h3>
+            <h3><mark><em>Educational Qualifications</em></mark></h3>
             <table>
                 <tr id="heading">
                     <td>Institute</td>
@@ -52,12 +136,12 @@
                     <td>2014</td>
                 </tr>
             </table>
-            <h3>Internship</h3>
+            <h3><mark><em>Internship</em></mark></h3>
                 <p> Bharat Sanchar Nigam Limited (BSNL),
                     The task was to learn about GSM, the architecture of GSM, broadband and practical information about 
                     leased lines.
                 </p>
-            <h3 id="company-name">Projects</h3>
+            <h3 id="project"><mark><em>Projects</em></mark></h3>
             <ul>
                 <li><strong>Ultrasonic Blindstick:-</strong> The aim of the project was to help the blind people to walk using that stick which
                     produces the sound and the intensity is based on the distance of the object.
@@ -73,7 +157,7 @@
                 </li></ul>
             </p>
             
-            <h3>Technical Skills</h3>
+            <h3><mark><em>Technical Skills</em></mark></h3>
             <p>
             <ul>
                 <li>
@@ -93,7 +177,7 @@
                 </li>
             </ul>
             </p>
-            <h3>Certifications / Awards:</h3>
+            <h3><mark><em>Certifications / Awards:</em></mark></h3>
             <p>
             <ul>
                 <li>NPTEL Certified (Elite+Silver) for completing the Python Course July-September 2019</li>
@@ -103,7 +187,7 @@
                 <li>Certificate in Jagran Sanskarshala Program in 2013-2014 was awarded</li>
             </ul>
             </p>
-            <h3>Personal Information:</h3>
+            <h3><mark><em>Personal Information:</em></mark></h3>
             <p>
             <ul>
                 <li>My strength are tht I am determined towards my work, self confident, adaptive to work environment, keen learner.</li>
@@ -112,10 +196,10 @@
                 <li>
                 <span id="course-name">Hobbies: </span>I am fond of playing football, badminton, Chess, swimming, listening music, surfing Internet, self-learning through e-courses.</li> </ul>
             </p>
-            <h3>Declaration</h3>
+            <h3><mark><em>Declaration</em></mark></h3>
             <p>
             I hereby declare that the details furnished above are true and correct to the best of my knowledge and belief.</p>
+            <hr></hr>
         </div>
-    <div id="footer"></div>
 </body>
 </html>
